@@ -1,0 +1,146 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header + .dashboard-main,
+.dashboard-header + .dashboard-list-section,
+.dashboard-header + input {
+  margin-top: 2rem;
+}
+
+.dashboard-logout-btn {
+  background: #fff;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  padding: 0.4rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.dashboard-logout-btn:hover {
+  background: #dc3545;
+  color: #fff;
+}
+
+.dashboard-main {
+  display: flex;
+  gap: 2rem;
+}
+
+.dashboard-form-section, .dashboard-list-section {
+  flex: 1;
+}
+
+.dashboard-form {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.08);
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-form-group {
+  margin-bottom: 1rem;
+}
+
+.dashboard-input {
+  width: 100%;
+  max-width: 350px;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.dashboard-alert {
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.95rem;
+}
+.dashboard-alert-danger {
+  background: #f8d7da;
+  color: #842029;
+}
+
+.dashboard-btn {
+  padding: 0.4rem 1rem;
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+.dashboard-btn:last-child {
+  margin-right: 0;
+}
+.dashboard-btn-secondary {
+  background: #6c757d;
+}
+.dashboard-btn-edit {
+  background: #b8b7b3;
+  color: #212529;
+}
+.dashboard-btn-delete {
+  background: #dc3545;
+}
+.dashboard-btn-edit:hover {
+  background: #e0a800;
+}
+.dashboard-btn-delete:hover {
+  background: #bb2d3b;
+}
+
+.dashboard-search {
+  width: 100%;
+  max-width: 350px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.dashboard-list {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.08);
+  padding: 1rem;
+}
+
+.dashboard-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 1rem;
+}
+.dashboard-list-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.dashboard-contact-name {
+  font-weight: 600;
+}
+.dashboard-contact-details {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+.dashboard-empty {
+  text-align: center;
+  color: #6c757d;
+  padding: 1.5rem 0;
+} 

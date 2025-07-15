@@ -1,0 +1,97 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.register-card {
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  min-width: 350px;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.register-logo {
+  width: 60px;
+}
+
+.register-title {
+  margin-top: 0.5rem;
+}
+
+.register-subtitle {
+  color: #6c757d;
+}
+
+.register-form-group {
+  margin-bottom: 1rem;
+}
+
+.register-label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.register-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.register-alert {
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.register-alert-danger {
+  background: #f8d7da;
+  color: #842029;
+}
+
+.register-alert-success {
+  background: #d1e7dd;
+  color: #0f5132;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.register-footer {
+  text-align: center;
+  margin-top: 1rem;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
