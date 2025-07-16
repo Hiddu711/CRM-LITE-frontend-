@@ -1,3 +1,5 @@
+const API_BASE_URL = "https://crm-lite-backend-2.onrender.com";
+
 export async function apiFetch(endpoint, { method = 'GET', body, headers = {}, ...rest } = {}) {
   const token = localStorage.getItem('token');
   const fetchHeaders = {
@@ -7,7 +9,7 @@ export async function apiFetch(endpoint, { method = 'GET', body, headers = {}, .
   if (token) {
     fetchHeaders['Authorization'] = `Bearer ${token}`;
   }
-  const res = await fetch(`/api${endpoint}`, {
+  const res = await fetch(`${API_BASE_URL}/api${endpoint}`, {
     method,
     headers: fetchHeaders,
     body: body ? JSON.stringify(body) : undefined,
